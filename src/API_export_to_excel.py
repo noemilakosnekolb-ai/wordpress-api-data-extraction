@@ -15,7 +15,6 @@ if response.status_code ==200:
             "Név": cat['name'],
             "ID": cat['id']
         })
-        print(data)
     #put it in a dataframe
     df = pd.DataFrame(data)
     #export to Excel
