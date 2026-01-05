@@ -1,0 +1,11 @@
+## Requirements
+
+- Python 3.14+
+- pandas
+- requests
+- openpyxl (required by Pandas for Excel export)
+
+Install dependencies with:
+
+```bash
+python -m pip install pandas requests openpyxl
