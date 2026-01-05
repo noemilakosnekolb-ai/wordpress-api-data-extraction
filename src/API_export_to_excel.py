@@ -12,7 +12,7 @@ if response.status_code ==200:
     data = []
     for cat in categories:
         data.append({
-            "Név": cat['name'],
+            "Name": cat['name'],
             "ID": cat['id']
         })
     #put it in a dataframe
@@ -22,3 +22,4 @@ if response.status_code ==200:
     print("Succesfully export: categories.xlsx")  
 else:
     print("Error:", response.status_code)
+
